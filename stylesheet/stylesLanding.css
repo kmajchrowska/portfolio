@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  padding: 50px;
+  animation-name: bg;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+.container {
+  background-color: #D4D9D5;
+  background-size: cover;
+  height: 100%;
+  padding: 50px;
+}
+
+.landing {
+  font-size: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+h1 {
+  font-family: 'Rozha One', serif;
+  font-size: 500px;
+  color: #D4D9D5;
+}
+
+.flexbox-centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes bg {
+    from {background-color: white;}
+    to {background-color: #D4D9D5;}

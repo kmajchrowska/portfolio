@@ -1,0 +1,130 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+background-color: #F2F2F2;
+background-size: cover;
+height: 100vh;
+}
+
+.project {
+  background-color: #F2F2F2;
+  height: 100vh;
+}
+
+.image {
+  background-color: #F2F2F2;
+  height: 100vh;
+}
+
+.flexbox-centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  text-align: left;
+  z-index: 1;
+}
+
+.info {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  text-align: right;
+  z-index: 1;
+}
+
+.email {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  text-align: right;
+  z-index: 1;
+  color: #B3B8B4;
+}
+
+.icons {
+
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  text-align: left;
+  z-index: 1;
+}
+
+.fa-dribbble {
+  position: absolute;
+  left: 25px;
+  bottom: 0;
+}
+
+.fa-instagram {
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+}
+
+.fa-linkedin {
+  position: absolute;
+  left: 75px;
+  bottom: 0;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #B3B8B4;
+}
+
+.box {
+  background-color: pink;
+  height: 400px;
+  width: 400px;
+}
+
+.cathegory {
+  position: relative;
+  right: 520px;
+  bottom: 160px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.number {
+  position: relative;
+  left: 400px;
+  bottom: 170px;
+}
+
+.rotatedCCW {
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.rotatedCW {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+.title {
+  font-family: 'Rozha One', serif;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  right: 200px;
+  top: 150px;
+}

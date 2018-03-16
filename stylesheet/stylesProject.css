@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #F2F2F2;
+}
+
+.close {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  text-align: left;
+  z-index: 1;
+}
+
+.info {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  text-align: right;
+  z-index: 1;
+}
+
+.flexbox-centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Rozha One', serif;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.box {
+  background-color: pink;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 500px;
+}
+
+.box2 {
+  background-color: pink;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 1000px;
+}
+
+.box3 {
+  background-color: pink;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 1500px;
+}
